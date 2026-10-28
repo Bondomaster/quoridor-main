@@ -1,0 +1,19 @@
+{
+  "generation": 1,
+  "best_fitness": 60.0,
+  "best_genes": {
+    "W1_DIST": 2.0,
+    "W2_WALL": 2.6,
+    "W3_TEMPO": 0.45,
+    "W4_MOB": 0.15,
+    "CAND_EDGES": 16,
+    "OPENING_VARY_PROB": 0.35
+  },
+  "stats": {
+    "win": 0,
+    "draw": 2,
+    "loss": 0,
+    "turns": 80
+  },
+  "timestamp": "2026-10-27 19:06:46"
+}

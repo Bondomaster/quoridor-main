@@ -1,0 +1,1638 @@
+{
+  "format_version": 1,
+  "players": [
+    {
+      "id": 0,
+      "name": "25127275",
+      "path": "D:\\N2-hcmus-hk1\\wrongway-student\\wrongway\\submissions\\25127275.py"
+    },
+    {
+      "id": 1,
+      "name": "Champion_v3_9f1ee8791ef3d8dc",
+      "path": "D:\\N2-hcmus-hk1\\wrongway-student\\wrongway\\submissions\\Champion_v3_9f1ee8791ef3d8dc.py"
+    }
+  ],
+  "config": {
+    "timeout": 1.0,
+    "startup_timeout": 5.0,
+    "max_turns": 500,
+    "seed": 0,
+    "starting_player": 0
+  },
+  "initial_state": {
+    "board_size": 9,
+    "positions": [
+      [
+        8,
+        4
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "goal_rows": [
+      0,
+      8
+    ],
+    "walls_remaining": [
+      10,
+      10
+    ],
+    "walls": {
+      "horizontal": [],
+      "vertical": []
+    },
+    "current_player": 0,
+    "turn": 0,
+    "max_turns": 500,
+    "done": false,
+    "winner": null,
+    "termination_reason": null
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          7,
+          4
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.001878,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            7,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          10
+        ],
+        "walls": {
+          "horizontal": [],
+          "vertical": []
+        },
+        "current_player": 1,
+        "turn": 1,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 2,
+      "player": 1,
+      "action": {
+        "type": "move",
+        "to": [
+          1,
+          4
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.601301,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            7,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          10
+        ],
+        "walls": {
+          "horizontal": [],
+          "vertical": []
+        },
+        "current_player": 0,
+        "turn": 2,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 3,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          6,
+          4
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.001696,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            6,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          10
+        ],
+        "walls": {
+          "horizontal": [],
+          "vertical": []
+        },
+        "current_player": 1,
+        "turn": 3,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 4,
+      "player": 1,
+      "action": {
+        "type": "move",
+        "to": [
+          2,
+          4
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.601459,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            6,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          10
+        ],
+        "walls": {
+          "horizontal": [],
+          "vertical": []
+        },
+        "current_player": 0,
+        "turn": 4,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 5,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          5,
+          4
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.001429,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            5,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          10
+        ],
+        "walls": {
+          "horizontal": [],
+          "vertical": []
+        },
+        "current_player": 1,
+        "turn": 5,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 6,
+      "player": 1,
+      "action": {
+        "type": "move",
+        "to": [
+          3,
+          4
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.601494,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            5,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          10
+        ],
+        "walls": {
+          "horizontal": [],
+          "vertical": []
+        },
+        "current_player": 0,
+        "turn": 6,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 7,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          4,
+          4
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.001337,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          10
+        ],
+        "walls": {
+          "horizontal": [],
+          "vertical": []
+        },
+        "current_player": 1,
+        "turn": 7,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 8,
+      "player": 1,
+      "action": {
+        "type": "move",
+        "to": [
+          5,
+          4
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.601592,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          10
+        ],
+        "walls": {
+          "horizontal": [],
+          "vertical": []
+        },
+        "current_player": 0,
+        "turn": 8,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 9,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          3,
+          4
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.001285,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          10
+        ],
+        "walls": {
+          "horizontal": [],
+          "vertical": []
+        },
+        "current_player": 1,
+        "turn": 9,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 10,
+      "player": 1,
+      "action": {
+        "type": "wall",
+        "orientation": "H",
+        "row": 2,
+        "col": 3
+      },
+      "status": "ok",
+      "reason": "wall",
+      "error": null,
+      "elapsed": 0.601766,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          9
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ]
+          ],
+          "vertical": []
+        },
+        "current_player": 0,
+        "turn": 10,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 11,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          3,
+          5
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.001434,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            3,
+            5
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          9
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ]
+          ],
+          "vertical": []
+        },
+        "current_player": 1,
+        "turn": 11,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 12,
+      "player": 1,
+      "action": {
+        "type": "wall",
+        "orientation": "H",
+        "row": 2,
+        "col": 5
+      },
+      "status": "ok",
+      "reason": "wall",
+      "error": null,
+      "elapsed": 0.601398,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            3,
+            5
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          8
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "vertical": []
+        },
+        "current_player": 0,
+        "turn": 12,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 13,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          3,
+          6
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.001379,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            3,
+            6
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          8
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "vertical": []
+        },
+        "current_player": 1,
+        "turn": 13,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 14,
+      "player": 1,
+      "action": {
+        "type": "wall",
+        "orientation": "H",
+        "row": 2,
+        "col": 7
+      },
+      "status": "ok",
+      "reason": "wall",
+      "error": null,
+      "elapsed": 0.601375,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            3,
+            6
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          7
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "vertical": []
+        },
+        "current_player": 0,
+        "turn": 14,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 15,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          3,
+          5
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.001323,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            3,
+            5
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          7
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "vertical": []
+        },
+        "current_player": 1,
+        "turn": 15,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 16,
+      "player": 1,
+      "action": {
+        "type": "wall",
+        "orientation": "V",
+        "row": 3,
+        "col": 4
+      },
+      "status": "ok",
+      "reason": "wall",
+      "error": null,
+      "elapsed": 0.601617,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            3,
+            5
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          6
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "vertical": [
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "current_player": 0,
+        "turn": 16,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 17,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          4,
+          5
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.00137,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          6
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "vertical": [
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "current_player": 1,
+        "turn": 17,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 18,
+      "player": 1,
+      "action": {
+        "type": "wall",
+        "orientation": "H",
+        "row": 4,
+        "col": 5
+      },
+      "status": "ok",
+      "reason": "wall",
+      "error": null,
+      "elapsed": 0.601383,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          5
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "vertical": [
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "current_player": 0,
+        "turn": 18,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 19,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          4,
+          6
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.00189,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          5
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "vertical": [
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "current_player": 1,
+        "turn": 19,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 20,
+      "player": 1,
+      "action": {
+        "type": "wall",
+        "orientation": "V",
+        "row": 4,
+        "col": 6
+      },
+      "status": "ok",
+      "reason": "wall",
+      "error": null,
+      "elapsed": 0.601734,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          4
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "vertical": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              6
+            ]
+          ]
+        },
+        "current_player": 0,
+        "turn": 20,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 21,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          3,
+          6
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.001347,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            3,
+            6
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          4
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "vertical": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              6
+            ]
+          ]
+        },
+        "current_player": 1,
+        "turn": 21,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 22,
+      "player": 1,
+      "action": {
+        "type": "move",
+        "to": [
+          6,
+          4
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.601186,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            3,
+            6
+          ],
+          [
+            6,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          4
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "vertical": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              6
+            ]
+          ]
+        },
+        "current_player": 0,
+        "turn": 22,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 23,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          3,
+          7
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.00128,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            6,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          4
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "vertical": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              6
+            ]
+          ]
+        },
+        "current_player": 1,
+        "turn": 23,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 24,
+      "player": 1,
+      "action": {
+        "type": "move",
+        "to": [
+          7,
+          4
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.60127,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          4
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "vertical": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              6
+            ]
+          ]
+        },
+        "current_player": 0,
+        "turn": 24,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 25,
+      "player": 0,
+      "action": {
+        "type": "move",
+        "to": [
+          4,
+          7
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.001259,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            4,
+            7
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          4
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "vertical": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              6
+            ]
+          ]
+        },
+        "current_player": 1,
+        "turn": 25,
+        "max_turns": 500,
+        "done": false,
+        "winner": null,
+        "termination_reason": null
+      }
+    },
+    {
+      "turn": 26,
+      "player": 1,
+      "action": {
+        "type": "move",
+        "to": [
+          8,
+          4
+        ]
+      },
+      "status": "ok",
+      "reason": "move",
+      "error": null,
+      "elapsed": 0.001093,
+      "state": {
+        "board_size": 9,
+        "positions": [
+          [
+            4,
+            7
+          ],
+          [
+            8,
+            4
+          ]
+        ],
+        "goal_rows": [
+          0,
+          8
+        ],
+        "walls_remaining": [
+          10,
+          4
+        ],
+        "walls": {
+          "horizontal": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "vertical": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              6
+            ]
+          ]
+        },
+        "current_player": 0,
+        "turn": 26,
+        "max_turns": 500,
+        "done": true,
+        "winner": 1,
+        "termination_reason": "goal"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "ok": 13,
+      "pass": 0,
+      "invalid": 0,
+      "timeout": 0,
+      "error": 0
+    },
+    {
+      "ok": 13,
+      "pass": 0,
+      "invalid": 0,
+      "timeout": 0,
+      "error": 0
+    }
+  ],
+  "winner": 1,
+  "winner_name": "Champion_v3_9f1ee8791ef3d8dc",
+  "reason": "goal",
+  "total_turns": 26,
+  "final_state": {
+    "board_size": 9,
+    "positions": [
+      [
+        4,
+        7
+      ],
+      [
+        8,
+        4
+      ]
+    ],
+    "goal_rows": [
+      0,
+      8
+    ],
+    "walls_remaining": [
+      10,
+      4
+    ],
+    "walls": {
+      "horizontal": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "vertical": [
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ]
+      ]
+    },
+    "current_player": 0,
+    "turn": 26,
+    "max_turns": 500,
+    "done": true,
+    "winner": 1,
+    "termination_reason": "goal"
+  }
+}
